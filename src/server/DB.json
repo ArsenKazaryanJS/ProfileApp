@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": "4cb1",
+      "name": "Karen",
+      "email": "arsen.kharyan@mail.ru",
+      "password": "1234",
+      "gender": "male",
+      "avatar": "https://ui-avatars.com/api/?name=Karen"
+    }
+  ],
+  "logs": [
+ 
+  ]
+}

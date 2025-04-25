@@ -1,5 +1,6 @@
 Home  Page  
-![image](https://github.com/user-attachments/assets/613fd5d6-4ad4-44a0-b261-a4daca1a15c9)
+![image](https://github.com/user-attachments/assets/bff8161e-295f-46ea-ab41-3554a38ce414)
+
 
 Register Page
 ![image](https://github.com/user-attachments/assets/b0cc1307-2138-442f-94af-1a886a25d487)

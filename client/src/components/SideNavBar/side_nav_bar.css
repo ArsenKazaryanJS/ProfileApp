@@ -1,0 +1,126 @@
+.nav_container {
+  width: 330px;
+  position: fixed;
+  height: 100%;
+  background-color: rgb(250 250 250);
+  box-shadow: 5px 0px 6px -4px rgba(34, 60, 80, 0.2);
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    .nav_head {
+      height: 100px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      a {
+        font-size: 1.65rem;
+        font-weight: 700;
+        color: #694cfa;
+      }
+    }
+    .side_barContent {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      gap: 20px;
+      padding-top: 10px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+      border-top: 1px solid rgba(0, 0, 0, 0.11);
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 20px;
+        padding: 10px;
+        color: var(--fade-text-color);
+        font-weight: 600;
+        border-radius: 7px;
+        transition: 0.3s all;
+      }
+
+      .active {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+
+        gap: 10px;
+        padding: 10px;
+        color: rgb(248 250 252);
+        background-color: var(--primary);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+          rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        border-radius: 7px;
+      }
+    }
+  }
+}
+
+.footer_img_box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+
+  .footer_text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  h2 {
+    color: var(--fade-text-color);
+    font-size: 20px;
+  }
+  p {
+    color: var(--fade-text-color);
+  }
+}
+
+.sidebar_footer {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  button {
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s all;
+    color: var(--fade-text-color);
+    font-weight: 500;
+  }
+
+  button:hover {
+    background-color: var(--primary-hover);
+    color: white;
+  }
+}
+
+.sidebar_footer,
+.side_barContent,
+.nav_head {
+  padding-left: 25px;
+  padding-right: 25px;
+
+}

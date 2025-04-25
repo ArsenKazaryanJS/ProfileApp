@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <form class="form" action="/api/post" method="post" enctype="multipart/form-data">
+    <input type="text" id="title" placeholder="Title" name="title" />
+    <textarea id="text" placeholder="Write your post here..." name="text"></textarea>
+    <input type="file" name="avatar"/>
+    <label for="image" class="custom-file-upload"> Add Image </label>
+    <button type="submit">Create Post</button>
+  </form>
+</html>
